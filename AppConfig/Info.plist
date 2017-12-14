@@ -41,5 +41,41 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>Icon-App-60x60@2x</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
+		</dict>
+		<key>UINewsstandIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UINewsstandBindingType</key>
+			<string>UINewsstandBindingTypeMagazine</string>
+			<key>UINewsstandBindingEdge</key>
+			<string>UINewsstandBindingEdgeLeft</string>
+		</dict>
+	</dict>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon-App-20x20.png</string>
+		<string>Icon-App-29x29.png</string>
+		<string>Icon-App-40x40.png</string>
+		<string>Icon-App-57x57.png</string>
+		<string>Icon-App-60x60.png</string>
+		<string>Icon-App-72x72.png</string>
+		<string>Icon-App-76x76.png</string>
+		<string>Icon-App-83.5x83.5.png</string>
+		<string>Icon-Small-50x50.png</string>
+		<string>ItunesArtwork.png</string>
+	</array>
 </dict>
 </plist>

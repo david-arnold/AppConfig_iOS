@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *serverURL;
+@property (strong, nonatomic) IBOutlet UISwitch *enableHTTPS;
+@property (strong, nonatomic) IBOutlet UITextField *username;
+@property (strong, nonatomic) IBOutlet UITextField *userEmailAddress;
+@property (strong, nonatomic) IBOutlet UITextField *otherVariable;
+
+-(void) readUserDefaultsValues;
+
+-(NSString*) parseStringValue: (NSString*) managedValue withDefault: (NSString*) defaultValue;
 
 @end
 
